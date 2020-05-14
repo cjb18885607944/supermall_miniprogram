@@ -1,4 +1,9 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "w-swiper":"/components/w-swiper/w-swiper",
+    "w-recommend":"./childCpn/w-recommend/w-recommend",
+    "w-popular":"./childCpn/w-popular/w-popular",
+    "w-tabbar":"/components/w-tabbar/w-tabbar"
+  },
   "navigationBarTitleText": "supermall"
 }

@@ -1,0 +1,19 @@
+/* components/w-tabbar/w-tabbar.wxss */
+.tabbar{
+  display: flex;
+  height: 80rpx;
+  align-items: center;
+}
+.tabbar-item{
+  flex: 1;
+  text-align: center;
+  height: 100%;
+  line-height: 80rpx;
+}
+.item-content{
+  padding: 14rpx;
+}
+.item-content.active{
+  color: #ff5777;
+  border-bottom: 2px solid #ff5777;
+}

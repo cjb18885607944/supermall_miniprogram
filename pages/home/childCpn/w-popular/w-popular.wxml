@@ -1,0 +1,3 @@
+<view class="popular">
+  <image mode="widthFix" class="popular_img" src="/assets/img/home/recommend_bg.jpg"></image>
+</view>

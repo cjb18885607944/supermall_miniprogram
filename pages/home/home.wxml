@@ -1,2 +1,8 @@
-<!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+<!-- 展示轮播图 -->
+<w-swiper list="{{banner}}"/>
+<!-- 推荐数据 -->
+<w-recommend list="{{recommend}}"/>
+<!-- 本周流行 -->
+<w-popular/>
+<!-- tabbar -->
+<w-tabbar list="{{['推荐','流行','精选']}}" bind:item_click="tabbar_click"/>
